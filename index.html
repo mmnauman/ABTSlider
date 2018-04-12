@@ -67,7 +67,7 @@ let autoSlide = true;
 // Creating Array and getting all the image Urls
 var slidesContainer = [];
 var allSlides = [];
-const Effects = ["bounceInRight", "flipInX", "lightSpeedIn", "jackInTheBox", "rollIn", "zoomInDown", "rotateInDownLeft", "fadeInRightBig"];
+const Effects = ["bounceInRight", "flipInX", "lightSpeedIn", "jackInTheBox", "zoomInRight", "zoomInDown", "rotateInDownRight", "fadeInRight", "rubberBand"];
 // declaring logical variables
 var indexVal = 0
 var j = 0;
@@ -176,7 +176,7 @@ $(allSlides[indexVal]).fadeIn().animateCss(Effects[Math.floor(Math.random() * Ef
 }
     
 if(autoSlide === true){
-    setInterval(nextSlides, 3000);   
+    setInterval(nextSlides, 5000);   
 } 
         
       

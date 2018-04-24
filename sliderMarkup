@@ -1,0 +1,37 @@
+<link rel="stylesheet" href="https://cdn.rawgit.com/mmnauman/ABTSlider/467e7c54/css/style.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.5.2/animate.min.css">
+
+
+<div class="sliderWrap">
+    <div class="slider">
+        <div id="prev" class='prev prevSection navigate'>
+        
+<!--Coded By Allbloggertricks.com-->
+
+            <span>&#8249;</span>
+
+        </div>
+        <div id='slidesContainer' class='slidesWrap'>
+            <div class="slide active">
+                <img src="Your-image-url-here" alt="First Image" title='1'>
+            </div>
+            <div class="slide">
+                <img src="Your-image-url-here" alt="Second Image" title='2'>
+            </div>
+            <div class="slide">
+                <img src="Your-image-url-here" alt="Third Image" title='3'>
+            </div>
+            <div class="slide">
+                <img src="Your-image-url-here" alt="Fourth Image" title='4'>
+            </div>
+        </div>
+        <div id="next" class='next nextSection navigate'>
+
+            <span>&#8250;</span>
+        </div>
+    </div>
+</div>
+
+<script src='https://cdn.rawgit.com/mmnauman/ABTSlider/467e7c54/helperFunctions.js'></script>
+<script src='https://cdn.rawgit.com/mmnauman/allbloggertricks.com-slider/336811e5/script.js'></script>
